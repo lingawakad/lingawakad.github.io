@@ -3,8 +3,8 @@ title: monkeyspace
 description: >- 
   we'll see if this goes anywhere...
 baseurl: "https://lingawakad.github.io" 
-url: "/lingawakad.github.io/" 
-github_username:  lingawakad
+url: "" 
+github_username: lingawakad
 
 # Build settings
 theme: minima
