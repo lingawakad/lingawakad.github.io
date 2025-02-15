@@ -7,7 +7,7 @@ url: ""
 github_username: lingawakad
 
 # Build settings
-remote_theme: pages-themes/midnight
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
