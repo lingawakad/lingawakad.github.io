@@ -1,12 +1,35 @@
-# Site settings
-title: monkeyspace
-description: we'll see if this goes anywhere...
+# theme settings
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "dark"
 
-# Build settings
-remote_theme: pages-themes/midnight@v0.2.0
+# site settings
+locale: "en-US"
+title: "monkeyspace"
+subtitle: "a space for monkey"
+name: "noah"
+description: we'll see if this goes anywhere...
+repository: "lingawakad/lingawakad.github.io"
+show_date: true
+enable_copy_code_button: true
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      layout: single
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+
 plugins:
-- jekyll-remote-theme
 - jekyll-feed
+- jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
