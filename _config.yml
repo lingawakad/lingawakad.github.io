@@ -1,16 +1,12 @@
 # Site settings
 title: monkeyspace
-description: >- 
-  we'll see if this goes anywhere...
-baseurl: "" 
-url: "" 
-github_username: lingawakad
+description: we'll see if this goes anywhere...
 
 # Build settings
-theme: jekyll-theme-midnight
+remote_theme: pages-themes/midnight@v0.2.0
 plugins:
-  - jekyll-feed
-  - jekyll-remote-theme
+- jekyll-remote-theme
+- jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
