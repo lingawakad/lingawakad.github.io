@@ -7,7 +7,7 @@ url: ""
 github_username: lingawakad
 
 # Build settings
-theme: jekyll-theme-midnight
+theme: midnight
 plugins:
   - jekyll-feed
 
